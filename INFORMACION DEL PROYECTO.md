@@ -1,4 +1,4 @@
-# 📚 Explicación Completa del Sistema LOS FRING (MiniSmart)
+# 📚 Explicación Completa del Sistema LOS FRING (SISTEMA DE INVENTARIO Y VENTAS)
 
 ## 🎯 Índice
 1. [Arquitectura General del Sistema](#arquitectura-general)
