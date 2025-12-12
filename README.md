@@ -1,5 +1,4 @@
-LOS FRING - Sistema de inventario y ventas para minisúper
-==========================================================
+LOS FRING - Sistema de inventario y ventas para TI
 
 Proyecto académico en PHP 8 + MySQL para gestionar inventario, compras, ventas y un módulo sencillo de predicción de consumo.
 
