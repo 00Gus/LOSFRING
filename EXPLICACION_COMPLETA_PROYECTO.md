@@ -842,37 +842,7 @@ new Chart(ctx, {
 
 ---
 
-## 📝 Puntos Clave para la Exposición
 
-### 1. Arquitectura
-- ✅ PHP estructurado sin frameworks pesados
-- ✅ Separación de responsabilidades (config, helpers, includes)
-- ✅ PDO para acceso a base de datos
-
-### 2. Base de Datos
-- ✅ Diseño relacional con claves foráneas
-- ✅ Integridad referencial (CASCADE, RESTRICT)
-- ✅ Índices para optimizar consultas
-
-### 3. Seguridad
-- ✅ Sentencias preparadas (previene SQL injection)
-- ✅ Contraseñas hasheadas
-- ✅ Control de sesiones y roles
-
-### 4. Funcionalidades
-- ✅ CRUD completo de productos, categorías, proveedores
-- ✅ Sistema de compras y ventas con transacciones
-- ✅ Inventario dinámico (stock se actualiza automáticamente)
-- ✅ Reportes con gráficas
-- ✅ Predicción simple de consumo
-
-### 5. Tecnologías
-- ✅ PHP 8.2, MySQL 8.0
-- ✅ Bootstrap para UI responsiva
-- ✅ Chart.js para visualización
-- ✅ Docker para despliegue
-
----
 
 ## 🎯 Conclusión
 
