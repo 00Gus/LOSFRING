@@ -1,0 +1,37 @@
+services:
+  app:
+    build: .
+    container_name: minismart_app
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_NAME: minismart_db
+      DB_USER: minismart_user
+      DB_PASS: minismart_pass
+    volumes:
+      - .:/var/www/html
+
+  db:
+    image: mysql:8.0
+    container_name: minismart_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: minismart_db
+      MYSQL_USER: minismart_user
+      MYSQL_PASSWORD: minismart_pass
+    ports:
+      - "3307:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./database/minismart_schema.sql:/docker-entrypoint-initdb.d/minismart_schema.sql
+
+volumes:
+  db_data:
+
+
+
+
